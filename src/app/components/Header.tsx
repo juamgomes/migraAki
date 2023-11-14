@@ -6,9 +6,9 @@ export default function Header() {
     <header className="bg-gray-800 text-white">
       <nav className="flex-col lg:flex-row flex justify-between items-center px-10 py-4">
         <Link className='text-emerald-600 font-bold text-xl mb-4 lg:mb-0' href="/dashboard">
-            MigrAki
+            MigrAqui
           </Link>
-        <div className='text-sm flex lg:text-lg items-center justify-center gap-7'>
+        <div className='text-sm flex lg:text-lg items-center justify-center p-4 lg:p-0 gap-7'>
           <Link href="/documentos-imigrantes">
             Documentos Imigrantes
           </Link>
