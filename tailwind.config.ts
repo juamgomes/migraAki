@@ -14,6 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'estrada': "url('/estrada.jpg')",
           'regula': "url('/regula.jpg')",
+          'imigrante': "url('/imigrante.jpg')",
+          'refu': "url('/refugiados.jpeg')"
       },
     },
   },

@@ -8,7 +8,7 @@ export default function dashboard() {
 
   return (
     
-    <main className='bg-regula bg-cover h-screen'>
+    <main className='bg-imigrante bg-cover h-screen'>
       <Header />
       <div className='p-10 bg-emerald-600 rounded-sm'>
         <div className='gap-4'>
