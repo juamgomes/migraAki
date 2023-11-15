@@ -19,16 +19,16 @@ export default function DocImigrantes() {
         </div>
     <div className='flex flex-col justify-center items-center' >
           {/* CRNM */}
-          <Accordion className='bg-zinc-950 w-4/5 rounded-lg mb-4'>
+          <Accordion className='w-4/5 rounded-lg mb-4'>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon className='text-white'/>}
+            expandIcon={<ExpandMoreIcon className=''/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
             <Typography className='font-bold text-lg text-emerald-600'>Carteira de Registro Nacional Migratório (CRNM)</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className='p-2 lg:p-10 text-justify text-white'>
+            <Typography className='p-2 lg:p-10 text-justify '>
       
           <h2 className='font-bold mb-4'>O que é?</h2>
               É um documento físico de identificação de estrangeiros registrado no Brasil, tem
@@ -74,16 +74,16 @@ export default function DocImigrantes() {
           </AccordionDetails>
         </Accordion>
         {/* CPF */}
-        <Accordion className='bg-zinc-950 w-4/5 rounded-lg mb-4'>
+        <Accordion className='w-4/5 rounded-lg mb-4'>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon className='text-white'/>}
+            expandIcon={<ExpandMoreIcon className=''/>}
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
             <Typography className='font-bold text-lg text-emerald-600'>Cadastro de Pessoa Física (CPF)</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className='p-10 text-justify text-white'>
+            <Typography className='p-10 text-justify '>
               <h3 className='mb-4 font-bold text-lg'>O que é?</h3>
             <p>É um número de identificação fiscal atribuído a cada cidadão brasileiro, bem como a estrangeiros que residem no Brasil. Ele é emitido pela Receita Federal do Brasil e serve para identificar os contribuintes no país. Permite o acesso a uma série de facilidades, como o Sistema Público de Saúde (SUS), o registro em instituições públicas de educação, a abertura de contas em bancos e outras operações financeiras.</p>
             <h3 className=' my-4 font-bold text-lg'>Quem pode obter?</h3>
@@ -99,16 +99,16 @@ export default function DocImigrantes() {
           </AccordionDetails>
         </Accordion>
         {/* CPTS */}
-        <Accordion className='bg-zinc-950 w-4/5 rounded-lg mb-4'>
+        <Accordion className='w-4/5 rounded-lg mb-4'>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon className='text-white'/>}
+            expandIcon={<ExpandMoreIcon className=''/>}
             aria-controls="panel3a-content"
             id="panel2a-header"
           >
             <Typography className='font-bold text-lg text-emerald-600'>Carteira de Trabalho e Previdência Social (CTPS)</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className='p-10 text-justify text-white'>
+            <Typography className='p-10 text-justify '>
             <h3 className='font-bold text-lg mb-4'>O que é?</h3>
               <p>É um documento oficial brasileiro que registra a vida profissional e previdenciária do trabalhador. Ela é emitida pelo Ministério da Economia e é um dos documentos mais importantes para quem está ingressando no mercado de trabalho no Brasil.</p>
               <h3 className='font-bold text-lg my-4'>Quem pode obter?</h3>
@@ -124,16 +124,16 @@ export default function DocImigrantes() {
           </AccordionDetails>
         </Accordion>
         {/* CNH */}
-        <Accordion className='bg-zinc-950 w-4/5 rounded-lg mb-4'>
+        <Accordion className='w-4/5 rounded-lg mb-4'>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon className='text-white'/>}
+            expandIcon={<ExpandMoreIcon className=''/>}
             aria-controls="panel3a-content"
             id="panel2a-header"
           >
             <Typography className='font-bold text-lg text-emerald-600'>Carteira Nacional de Habilitação (CNH)</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className='p-10 text-justify text-white'>
+            <Typography className='p-10 text-justify '>
             <h3 className='font-bold text-lg my-4'>O que é?</h3>
           <p>A Carteira Nacional de Habilitação (CNH) é um documento oficial que atesta a aptidão de um cidadão para conduzir veículos automotores no Brasil. Ela é emitida pelo Departamento Nacional de Trânsito (DENATRAN) e é válida em todo o território nacional.</p>
           <h3 className='font-bold text-lg my-4'>Quem pode obter?</h3>
